@@ -1,0 +1,12 @@
+.main{
+  font-size: 36px;
+  padding: 100px 0;
+  color: rgba(235,6,125,255);
+  text-align: center;
+ 
+}
+.main img{
+  margin-left: 20px;
+  height: 10%;
+  width: 10%;
+}
