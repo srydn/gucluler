@@ -1,8 +1,10 @@
 
 .main img{
-  margin-left: 20px;
-  height: 10%;
-  width: 10%;
+
+  height: 20%;
+  width: 20%;
+  color: rgba(235,6,125,255);
+
 }
 
 
@@ -50,7 +52,7 @@
         font-size: 8rem;
         font-weight: bold;
         text-transform: uppercase;
-        text-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+        text-shadow: 0 0 15px rgba(225,46,107,25);
         position: relative;
         z-index: 10;
       }
@@ -83,11 +85,9 @@
         animation: slideFromUp 1s forwards ease-out 2.2s;
       }
       .efekt:nth-child(7) {
-        animation: slideFromRight 1s forwards ease-out 2.6s;
+        animation: slideFromBottom 1s forwards ease-out 2.6s;
       }
-      .efekt:nth-child(8) {
-        animation: slideFromBottom 1s forwards ease-out 3s;
-      }
+      
 
       @keyframes slideFromLeft {
         0% {
@@ -153,7 +153,7 @@
         }
       }
       .efekt {
-        color: #ffffff;
+        color: rgba(225,46,137,255);
         font-family: "Poppins", sans-serif;
         letter-spacing: 2px;
       }
